@@ -1,0 +1,23 @@
+.nav-tabs .nav-link:not(.active):hover {
+  border-color: transparent;
+  color: #007bff;
+}
+
+.list-group-item-action.completed {
+  color: #a8a8a8;
+}
+
+.sort-list-move {
+  transition: transform .5s;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.info .note {
+  font-size: 12px;
+  font-style: italic;
+}
